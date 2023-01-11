@@ -1,16 +1,10 @@
-.box {
-  margin-top: 50px;
-  color: blue;
-  width: 550px;
-  text-align: center;
-  border-radius: 60px;
-  border: 3px solid black;
-  height: 150px;
-  background-color: khaki;
-  cursor: pointer;
+.maintop {
+  min-height: 650px;
+  width: 100%;
+  background: url(../img/bg.jpg) center center/cover no-repeat;
 }
 
-.box:hover {
-  background-color: red;
-  color: white;
+.rmlogo {
+  padding-top: 20px;
+  height: 75px;
 }
