@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "MuseoSansCyrl";
+  src: url("../fonts/MuseoSansCyrl-500.eot");
+  src: url("../fonts/MuseoSansCyrl-500.woff") format("woff"), url("../fonts/MuseoSansCyrl-500.ttf") format("truetype");
+  font-style: normal;
+  font-size: normal;
+}
+
 .maintop {
   min-height: 650px;
   width: 100%;
@@ -6,5 +14,16 @@
 
 .rmlogo {
   padding-top: 20px;
-  height: 75px;
+  min-height: 75px;
+}
+
+.rmoffical {
+  margin: 0 auto;
+  margin-top: 21px;
+  text-align: center;
+  color: white;
+}
+
+* {
+  font-family: 'MuseoSansCyrl', sans-serif;
 }
