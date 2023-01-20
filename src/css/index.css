@@ -304,6 +304,15 @@ input::-webkit-inner-spin-button {
   color: #C70101;
 }
 
+.carousel {
+  margin-top: 50px;
+}
+
+.carousel_item {
+  width: 750px;
+  margin: 0 auto;
+}
+
 * {
   font-family: 'MuseoSansCyrl', sans-serif;
 }
