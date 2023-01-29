@@ -34,6 +34,12 @@
   transition: 0.4s all;
 }
 
+.catalog__tab_active {
+  color: #fff;
+  background-color: #C70101;
+  border: none;
+}
+
 .catalog__tab:hover {
   box-shadow: 3px 3px 20px #C70101;
   border: none;
@@ -43,14 +49,17 @@
   transform: skewX(25deg);
 }
 
-.catalog_active {
-  color: #fff;
-  background-color: #C70101;
-  border: none;
+.catalog__content {
+  margin: 0 auto;
+  width: 942px;
+  margin-top: 60px;
+  display: none;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-.catalog__content {
-  margin-top: 60px;
+.catalog__content_active {
+  display: flex;
 }
 
 .catalog-item {
@@ -58,6 +67,7 @@
   min-height: 442px;
   border: 2px solid #E8E8E8;
   padding: 20px 20px 26px 20px;
+  overflow: hidden;
 }
 
 .catalog-item_img {
@@ -81,6 +91,20 @@
   font-size: 14px;
   line-height: 22px;
   text-align: center;
+}
+
+.catalog-item_back {
+  display: block;
+  margin-top: 17px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 14px;
+  color: #C70101;
+  text-decoration: underline;
+}
+
+.catalog-item_back:hover {
+  color: #C70101;
 }
 
 .catalog-item_link {
@@ -130,6 +154,58 @@
 
 .catalog-item__btn:active {
   background-color: #741D1D;
+}
+
+.catalog-item__content {
+  margin-top: 60px;
+  width: 50%;
+  margin-right: 0px;
+  transform: translateX(-100%);
+  transition: 0.5s all;
+}
+
+.catalog-item__content_active {
+  transform: translateX(0%);
+  margin-right: 20px;
+}
+
+.catalog-item__wraper {
+  display: flex;
+  width: calc(200% + 40px);
+}
+
+.catalog-item__list {
+  position: relative;
+  width: 50%;
+  margin-left: 20px;
+  padding-right: 20px;
+  transition: 0.5s all;
+  padding-left: 0px;
+  margin-bottom: 0px;
+  list-style-type: none;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.catalog-item__list_li {
+  position: relative;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.catalog-item__list_li:before {
+  content: '';
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background-color: #C70101;
+  left: -14px;
+  top: 17px;
+}
+
+.catalog-item__list_active {
+  transform: translateX(-100%);
+  margin-left: 0px;
 }
 
 hr {

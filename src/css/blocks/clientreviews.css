@@ -1,0 +1,46 @@
+.clientrews-h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+  color: #0D0D0D;
+  padding-bottom: 60px;
+}
+
+.clientrews-item {
+  display: flex;
+  min-height: 285px;
+  padding-bottom: 60px;
+}
+
+.clientrews-item-avatar {
+  width: 169px;
+  height: 169px;
+}
+
+.clientrews-item_nick {
+  width: 215px;
+  padding-left: 60px;
+  margin-left: 0px;
+  height: 46px;
+}
+
+.clientrews-item_nick-name {
+  font-weight: 700;
+  font-size: 18px;
+  color: #0D0D0D;
+}
+
+.clientrews-item_nick-descr {
+  width: 660px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #646464;
+}
+
+.clientrews-item_review {
+  padding-top: 20px;
+  padding-left: 60px;
+  font-weight: 300;
+  font-size: 16px;
+  color: #0D0D0D;
+}
