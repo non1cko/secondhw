@@ -38,6 +38,20 @@ $(document).ready(function(){
     })
 
    })
-   
+   //modal
+
+   $('[data-modal=consultation]').on('click', function() {
+    $('.overlay, #consultation').fadeIn(); 
+   });
+   $('.modal__close').on('click', function(){
+     $('.overlay, #consultation, #thx, #order').fadeOut('slow');
+   });
+    $('.catalog-item__btn').each(function(i) {
+        $(this).on('click', function() {
+          $('#order .modal_descr').text($('.catalog-item_subtitle').eq(i).text());
+          $('.overlay, #order').fadeIn();
+        })
+
+    });
 });
 
