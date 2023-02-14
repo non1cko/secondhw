@@ -53,8 +53,19 @@ $(document).ready(function(){
         })
 
     });
-    $('#consultation-form"').validate();
-    $('#consultation form').validate();
-    $('#order form').validate();
+    $("#consultation-form").validate();
+    $("#consultation form").validate( {
+       rules:{
+        name: "required",
+        phone: "required"
+        email: {
+            required: true,
+            email: true
+        }
+       }
+          
+          
+    })
+    $("#order form").validate();
 });
 
