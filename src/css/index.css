@@ -505,6 +505,7 @@ hr {
 }
 
 .input_panel_btn {
+  display: block;
   margin-top: 26px;
   width: 303px;
   height: 58px;
@@ -703,6 +704,18 @@ input::-webkit-inner-spin-button {
 
 #order, #consultation, #thx {
   display: none;
+}
+
+.error {
+  color: #B57F17;
+  border: 1px solid red;
+  line-height: normal;
+}
+
+label.error {
+  border: none;
+  text-align: center;
+  font-size: 14px;
 }
 
 * {
