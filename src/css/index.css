@@ -170,6 +170,18 @@ a {
   color: #C70101;
 }
 
+@keyframes heartbeat {
+  from {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
 .catalog {
   padding-top: 80px;
   padding-bottom: 100px;
@@ -628,6 +640,17 @@ input::-webkit-inner-spin-button {
   height: 63px;
 }
 
+.benefit_logo_icon_animated {
+  animation-name: heartbeat;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+
+.benefit_logo_icon_animated:hover {
+  animation-duration: 0.5s;
+}
+
 .benefit_logo_h2 {
   padding-top: 20px;
   text-align: center;
@@ -716,6 +739,21 @@ label.error {
   border: none;
   text-align: center;
   font-size: 14px;
+}
+
+.pageup {
+  display: none;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  width: 40px;
+  height: 40px;
+  font-size: 35px;
+  color: #C70101;
+}
+
+.pageup:hover {
+  color: #5C0D0D;
 }
 
 * {
