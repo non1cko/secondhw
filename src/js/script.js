@@ -105,6 +105,5 @@ $(document).ready(function(){
          } else {
             $('.pageup').fadeOut();
          }
-
        });
 
