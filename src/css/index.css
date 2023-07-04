@@ -170,6 +170,85 @@ a {
   color: #C70101;
 }
 
+@media (max-width: 1400px) {
+  .body {
+    text-decoration: none;
+  }
+}
+
+@media (max-width: 1200px) {
+  .body {
+    text-decoration: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .body {
+    text-decoration: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .main_panel_offical {
+    display: none;
+  }
+  .main_panel_num_txt {
+    font-weight: 700;
+    padding-left: 15px;
+    font-size: 17px;
+  }
+  .main_panel_num_btn {
+    width: 174px;
+    height: 39px;
+    padding-top: 8.5px;
+    font-weight: 500;
+    font-size: 15px;
+  }
+  .main_txt_h1 {
+    font-size: 40px;
+  }
+  .main_txt_h2 {
+    font-size: 23px;
+  }
+  .main_logo_panel {
+    justify-content: center;
+  }
+  .main_underblock {
+    align-items: center;
+  }
+  .benefit_content {
+    margin-bottom: 87px;
+  }
+  .benefit_content_block {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+  .input_txt {
+    font-size: 24px;
+    text-align: center;
+    line-height: 32px;
+  }
+  .input_txt_h2 {
+    padding-top: 8px;
+    font-weight: 500;
+    font-size: 17px;
+    text-align: center;
+  }
+  #consultation-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 575px) {
+  .body {
+    text-decoration: none;
+  }
+}
+
 @keyframes heartbeat {
   from {
     transform: scale(1);
